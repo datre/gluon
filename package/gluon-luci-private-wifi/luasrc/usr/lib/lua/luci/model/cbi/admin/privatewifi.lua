@@ -1,4 +1,4 @@
-local uci = luci.model.uci.cursor()
+local uci = require("simple-uci").cursor()
 local util = require 'gluon.util'
 
 local f, s, o, ssid

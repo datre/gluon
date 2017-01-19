@@ -4,7 +4,7 @@ local sysconfig = require 'gluon.sysconfig'
 local site = require 'gluon.site_config'
 local util = require 'gluon.util'
 
-local uci = require('luci.model.uci').cursor()
+local uci = require('simple-uci').cursor()
 
 
 local gw_sel_class

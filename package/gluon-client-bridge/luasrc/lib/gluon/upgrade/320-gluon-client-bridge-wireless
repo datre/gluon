@@ -3,7 +3,7 @@
 local site = require 'gluon.site_config'
 local util = require 'gluon.util'
 
-local uci = require('luci.model.uci').cursor()
+local uci = require('simple-uci').cursor()
 
 
 local function is_disabled(config, name)

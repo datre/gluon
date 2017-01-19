@@ -4,7 +4,7 @@ local site = require 'gluon.site_config'
 local users = require 'gluon.users'
 local util = require 'gluon.util'
 
-local uci = require('luci.model.uci').cursor()
+local uci = require('simple-uci').cursor()
 local lutil = require 'luci.util'
 
 

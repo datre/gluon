@@ -1,4 +1,4 @@
-local uci = luci.model.uci.cursor()
+local uci = require("simple-uci").cursor()
 local meshvpn_enabled = uci:get("fastd", "mesh_vpn", "enabled", "0")
 
 if meshvpn_enabled ~= "1" then
